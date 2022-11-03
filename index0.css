@@ -1,0 +1,23 @@
+html{
+    background-image: url('foto0.jpg');
+    background-attachment: fixed;
+  }
+header{
+    font-size: x-large;
+    font-family: Verdana;
+}
+h1{
+    color: bisque;
+}
+body{
+    position: relative;
+
+}
+#borde{
+    position:absolute;
+	left: 40%;
+	width: 500px;
+    height: 500px;
+	background-color: rgb(255, 162, 22);
+	float: center;
+}

@@ -1,0 +1,38 @@
+html{
+  background-color: #222222
+}
+body{
+  color: honeydew;
+}
+#header{
+  font-size: x-large;
+  color: yellow;
+  margin: 25px;
+}
+#cajas{
+  display: flex;
+  border: 1px red solid;
+  justify-content: space-around;
+
+}
+#cajas > div{
+  border: 1px red solid;
+  padding: 10px;
+  width: 250px;
+  height: 600px;
+  background-color: #999999;
+  border-radius: 30px;
+}
+#cajas > div > a{
+  font-size: larger;
+}
+#flexx{
+  display: flex;
+  justify-content: space-around;
+}
+#logo{
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+
